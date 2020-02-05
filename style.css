@@ -1,0 +1,118 @@
+
+body {
+  /* background-image: url('./images/arctic.jpg'); */
+  background-color: #E2E8DD;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+div {
+  background: #E2E8DD;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1000px;        /* Set the width */
+  margin: 0 auto;
+}
+
+.card {
+  width: 75%;        /* Set the width */
+  margin: 10px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 30px #95A3A4;
+  border-radius: 10px;
+/*  border: 1px solid #4E5340; */
+}
+
+.avatar {
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.footer {
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #4E5340;
+  background-color: #E2E8DD;
+  opacity: 0.7;
+}
+
+.fa:hover {
+  color: #E2E8DD;
+  background-color: #4E5340;
+  opacity: 1;
+}
+
+h1 {
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #697268;
+}
+
+h2 {
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #4E5340;
+}
+
+p {
+    display: block;
+    font-size: 1em;
+    color: #4E5340;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
